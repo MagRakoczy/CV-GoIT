@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,49 +8,51 @@
     <title>Moje CV</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
     <link href="style.css" rel="stylesheet" />
 </head>
+
 <body>
     <div class="wrapper">
         <main>
             <div class="main-description">
-            <h2>Future front-end developer</h2>
+            <h2 class="job-title">Future front-end developer</h2>
             <h1>Magdalena Rakoczy</h1>
             <p class="description">Hi! I want to be a web developer.</p>
             </div>
     
-            <div class="block-2">
-            <h2>Project</h2>
-            <ol>
+            <h2 class="header-primary">Projects</h2>
+            <div class="projects">
+            <ol class="list-primary">
                 <li>
-                    <a href="https://barbershop-pl.goit.global/">https://barbershop-pl.goit.global/ </a>........[ HTML5, CSS3 ]
-                </li>
-                <li><a href="https://cryptohub.goit.global/">https://cryptohub.goit.global/</a>...............[ JavaScript ]
+                    <a class="list-primary-item" href="https://barbershop-pl.goit.global/">https://barbershop-pl.goit.global/ </a><span class="list-primary-item">........</span>[<span class="list-primary-item"> HTML5, CSS3</span> ]
                 </li>
                 <li>
-                    <a href="https://kidslike.goit.global/">https://kidslike.goit.global/</a>..................[ React.js, Node.js ]
+                    <a class="list-primary-item" href="https://cryptohub.goit.global/">https://cryptohub.goit.global/</a><span class="list-primary-item">..................</span>[<span class="list-primary-item"> JavaScript</span> ]
+                </li>
+                <li>
+                    <a class="list-primary-item" href="https://kidslike.goit.global/">https://kidslike.goit.global/</a><span class="list-primary-item">.........................</span>[<span class="list-primary-item"> React.js, Node.js</span> ]
                 </li>
             </ol>
             </div>
     
-           <div>
-               <h2>Work Experience</h2>
+           <div class="work-experience">
+               <h2 class="header-primary">Work Experience</h2>
             <div>
-               <h3>Personal Trainer EMS BodyTec20+</h3>
-               <p>October 2020 - up to now</p>
-               <ul>
+               <h3 class="job-name">Personal Trainer EMS <span class="highlight">BodyTec20+</span></h3>
+               <p class="job-date">October 2020 - up to now</p>
+               <ul class="job-list">
                    <li>carrying personal training</li><li>customer service</li>
                    <li>sale of services offered</li>
                    <li>payment processing, cash register, terminal operation</li>
                </ul>
-               </div>
-               <div class="description">
-               <h3>Seller Martes Sportr</h3>
-               <p>June 2020 - August 2020</p>
-               <ul>
+            </div>
+            <div>
+               <h3 class="job-name">Seller<span class="highlight"> Martes Sport</span></h3>
+               <p class="job-date">June 2020 - August 2020</p>
+               <ul class="job-list">
                    <li>customer services</li>
                    <li>sale of offered goods</li>
                    <li>preparation of goods for sale</li>
@@ -58,54 +61,57 @@
                </ul>
             </div>
             <div>
-               <h3>FreestylePark ApreSki</h3>
-               <p>May 2017 - March 2020</p>
-               <ul>
+               <h3 class="job-name">Customer Services <span class="highlight">FreestylePark ApreSki</span></h3>
+               <p class="job-date">May 2017 - March 2020</p>
+               <ul class="job-list">
                    <li>carrying personal training and group classes</li><li>room manager and taking care of clients' safety</li><li>customer service</li>
                    <li>sale of services offered</li>
                    <li>payment processing, cash register, terminal operation</li>
                </ul>
             </div>
-            <div>
-                <h2>Education</h2>
-                <h3>Academy of Physical Education in Katowice</h3>
-                <h4>Trener osobisty z dietetyką sportową</h4>
-                <p>September 2017 - June 2020</p>
-                <h4>Physiotherapy</h4>
-                <p>September 2016 - June 2019</p> 
+            <div class="education">
+                <h2 class="header-primary">Education</h2>
+                <h3 class="school-name">Academy of Physical Education in Katowice</h3>
+                <h4 class="study">Trener osobisty z dietetyką sportową</h4>
+                <p class="study-date">September 2017 - June 2020</p>
+                <h4 class="study">Physiotherapy</h4>
+                <p class="study-date">September 2016 - June 2019</p> 
             </div>
             </div>  
         </main>
-        <aside>
-        <img src="images/madzik.png" width="370" alt="My profile photo"/>
 
-        <div>
-            <h2>Contacts</h2>
-            <p>
-                C: <a href="tel: +48 666 666 666">+48 666 666 666</a> <br>
-                E: <a href="mailto: mgoit@gmail.com">mgoit@gmail.com</a>
+        <aside>
+        <img class="cv-photo" src="images/me.png" width="370" alt="My profile photo"/>
+
+        <div class="contact-block">
+            <h2 class="header-secondary">Contacts</h2>
+            <p class="contact-links">
+                <span class="bold">C:</span> <a class="contact-links" href="tel: +48 666 666 666">+48 666 666 666</a> <br>
+                <span class="bold">E:</span> <a class="contact-links" href="mailto: mgoit@gmail.com">mgoit@gmail.com</a>
             </p>
         </div>
 
-        <div>
-            <h2 class="description">Tech Skills</h2>
-            <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>GIT</li>
-                <li>WebPack</li>
-                <li>JavaScript</li>
-                <li>React.js</li>
-                <li>Node.js</li>
+        <div class="tech-skills-block">
+            <h2 class="header-secondary">Tech Skills</h2>
+            <ul class="list-secondary">
+                
+                <li><span class="list-secondary-item">HTML5</span></li>
+                <li><span class="list-secondary-item">CSS3</span></li>
+                <li><span class="list-secondary-item">GIT</span></li>
+                <li><span class="list-secondary-item">WebPack</span></li>
+                <li><span class="list-secondary-item">JavaScript</span></li>
+                <li><span class="list-secondary-item">React.js</span></li>
+                <li><span class="list-secondary-item">Node.js</span></li>
+                
         </div>
-        <div>
-            <h2>Soft Skills</h2>
-            <ul>
-                <li class="description">Scrum</li>
-                <li>Agile</li>
-                <li>GTD</li>
-                <li>Teamwork</li>
-            </div>
+        <div class="soft-skills-block">
+            <h2 class="header-secondary">Soft Skills</h2>
+            <ul class="list-secondary">
+                <li><span class="list-secondary-item">Scrum</span></li>
+                <li><span class="list-secondary-item">Agile</span></li>
+                <li><span class="list-secondary-item">GTD</span></li>
+                <li><span class="list-secondary-item">Teamwork</span></li>
+        </div>
         
         </aside>
     </div>
